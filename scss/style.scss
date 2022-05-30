@@ -1,5 +1,43 @@
 @import "_reset.scss";
-.header-display {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:wght@300&display=swap");
+body {
+   font-family: "Open Sans", sans-serif;
+   font-family: "Poppins", sans-serif;
+}
+.content {
+   max-width: 90%;
+   padding: 20px 0 0 0;
+   margin: 0 auto;
+}
+.header-main {
    display: flex;
-   border: 1px solid;
+}
+.header-display {
+   align-items: center;
+   display: flex;
+   height: 50px;
+
+   .img-flex {
+      flex: 0 1 50%;
+   }
+   .nav-flex {
+      flex: 1 1 33%;
+      display: flex;
+      justify-content: space-evenly;
+      a {
+         color: #111111;
+         font-size: 17px;
+      }
+      .Home {
+         color: #646464;
+      }
+      .Signup {
+         background-color: #caa892;
+         padding: 5px 5px 5px 5px;
+         margin: -5px;
+         border-radius: 10px 0 10px 0;
+         color: #ffff;
+         font-size: 15px;
+      }
+   }
 }
