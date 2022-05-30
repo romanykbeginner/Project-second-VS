@@ -85,3 +85,10 @@ h6 {
   font-size: inherit;
   font-weight: inherit;
 }
+
+.header-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid;
+}
