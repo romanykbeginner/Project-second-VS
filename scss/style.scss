@@ -28,10 +28,10 @@ body {
          color: #111111;
          font-size: 17px;
       }
-      .Home {
+      .nav-flex-home {
          color: #646464;
       }
-      .Signup {
+      .nav-flex-signup {
          background-color: #caa892;
          padding: 5px 5px 5px 5px;
          margin: -5px;
@@ -40,4 +40,22 @@ body {
          font-size: 15px;
       }
    }
+}
+.aside-display {
+   display: flex;
+}
+.aside-start-text {
+   margin: 200px 30px 0 0;
+   width: 920px;
+}
+
+.inside {
+   position: relative;
+   z-index: 2;
+}
+.outside {
+   position: relative;
+   top: -600px;
+   left: 25px;
+   z-index: 1;
 }
