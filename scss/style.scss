@@ -47,7 +47,7 @@ body {
 }
 .aside-display {
    display: flex;
-   margin: 40px 0 0 0;
+   padding: 40px 0 0 0;
 }
 .aside-start-text {
    margin: 60px 0 0 0;
@@ -85,7 +85,7 @@ body {
    position: relative;
    z-index: 2;
 }
-.outside {
+.frame {
    position: relative;
    color: #caa892;
    z-index: 0;
@@ -97,4 +97,84 @@ body {
    left: 15px;
    border-radius: 80px 0 100px 0;
    overflow: hidden;
+}
+.main-quarter {
+   margin: -240px 0 0 0;
+   .quarter-text {
+      font-size: $fz;
+      text-transform: uppercase;
+      padding-bottom: 10px;
+   }
+   .quarter-text-title {
+      font-size: 58px;
+      padding-bottom: 20px;
+   }
+   .quarter-img-before,
+   .quarter-img-after {
+      width: 7px;
+      height: 7px;
+      border-top: 2px solid #717171;
+      border-right: 2px solid #717171;
+      margin-right: 60px;
+      transform: rotate(-140deg);
+      position: relative;
+      top: 8px;
+      left: 9px;
+   }
+   .quarter-img-before-border,
+   .quarter-img-after-border {
+      border: 1px solid rgb(255, 254, 254);
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      left: 1200px;
+      top: 780px;
+      background-color: #ffffff;
+      box-shadow: 1px 1px 1px 1px #c6c4c4;
+   }
+   .quarter-img-after {
+      transform: rotate(45deg);
+      border-top: 2px solid #fffefe;
+      border-right: 2px solid #ffffff;
+      left: 8px;
+   }
+   .quarter-img-after-border {
+      border: 1px solid #37806b;
+      left: 1240px;
+      top: 780px;
+      background-color: #37806b;
+      box-shadow: 1px 1px 1px 1px #37806b;
+   }
+}
+.quarter-content {
+   display: flex;
+   margin: 20px 0 0 0;
+   justify-content: space-between;
+   padding: 0 0 20px 0;
+
+   .quarter-block {
+      border-radius: 80px 0 80px 0;
+      height: 160px;
+      width: 350px;
+      flex-wrap: wrap;
+      padding: 20px 0 0 25px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+      &:hover {
+         background-color: #caa892;
+         color: #fffefe;
+         transition: all 0.7s;
+      }
+   }
+   .quarter-block-header {
+      font-size: 20px;
+      font-weight: 700;
+      padding: 0 0 0 10px;
+   }
+   .quarter-block-text {
+      margin: -60px 0 0 55px;
+   }
 }
