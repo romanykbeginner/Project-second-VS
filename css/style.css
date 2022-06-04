@@ -321,3 +321,30 @@ body {
 .quarter-content .quarter-block-text {
   margin: -60px 0 0 55px;
 }
+
+.frame-about-us {
+  left: -40px;
+  top: -630px;
+  height: 600px;
+}
+
+.aside-display-about-us {
+  margin: 100px 0 0 0;
+}
+
+.inside-about-us {
+  height: 600px;
+}
+
+.second-text-about-us {
+  font-size: 50px;
+}
+
+.aside-start-text-about-us {
+  margin: 0px 0 0 95px;
+}
+
+.third-about-us {
+  font-size: 15px;
+  font-weight: 900;
+}
