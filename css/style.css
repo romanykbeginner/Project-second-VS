@@ -348,3 +348,12 @@ body {
   font-size: 15px;
   font-weight: 900;
 }
+
+.first-img img {
+  width: 230px;
+  height: 150px;
+}
+
+.aside-display-bookcase {
+  margin: -500px 0 0 0;
+}
