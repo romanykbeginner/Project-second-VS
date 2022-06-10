@@ -260,7 +260,7 @@ body {
 span {
    font-weight: $fw;
    font-size: 20px;
-   margin: 40px 0 0 -20px;
+   margin: 20px 0 0 -20px;
    display: inline-block;
 }
 .text-testimonials {
@@ -278,4 +278,41 @@ span {
    position: relative;
    top: -75px;
    left: 450px;
+}
+.main-letest-news {
+   margin: 100px 0 0 0;
+   background-color: #eae7e7;
+}
+
+.block1-letest-news {
+   display: flex;
+   justify-content: space-between;
+}
+
+.block-text-letest-news {
+   margin: -370px 0 0 0;
+   height: 250px;
+}
+.header-letest {
+   padding: 0 0 0 20px;
+   font-size: 25px;
+}
+
+.content-letest {
+   font-size: 16px;
+   font-weight: normal;
+   padding: 0 0 60px 20px;
+}
+.content-letest-width {
+   width: 110%;
+}
+.text-letest-news-margin {
+   margin: 0 225px 0 0;
+}
+.link-continue {
+   padding: 10px 20px 10px 20px;
+   border-radius: 20px 0 20px 0;
+   background-color: #37806b;
+   color: #ffff;
+   text-transform: uppercase;
 }
