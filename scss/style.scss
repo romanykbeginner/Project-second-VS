@@ -352,5 +352,31 @@ span {
    padding: 0 120px 0 150px;
    width: 60%;
    margin: 0 auto;
-   text-transform: ;
+}
+.main-footer {
+   display: flex;
+   justify-content: space-between;
+   height: 200px;
+   .img-footer {
+      display: inline-flex;
+      flex-direction: column;
+
+      width: 290px;
+   }
+   .img-footer img {
+      width: 154px;
+      height: 55px;
+   }
+   .text-footer {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 14px;
+      font-weight: normal;
+      padding: 0px 0px 20px 20px;
+   }
+   .table-footer {
+      margin: 0 0 0 30px;
+      flex: 1 1 33%;
+      text-align: left;
+   }
 }
